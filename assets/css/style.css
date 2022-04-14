@@ -7,10 +7,21 @@ body {
     color: white;
 }
 
-.destacados {
-    text-align: center;
-}
-
 .card {
     width: 18rem;
+    background-color: #0dcaf0;
+    
+}
+
+.ancho-formulario {
+    max-width: 40rem;
+}
+
+.my-2 {
+    margin-top: .5rem!important;
+    margin-bottom: .5rem!important;
+}
+
+textarea.form-control {
+    min-height: calc(1.5em + .75rem + 2px);
 }
