@@ -3,10 +3,16 @@ body {
     background-color: #212529;
 }
 
+.navbar {
+    background-color: #212529;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
 .text-white {
     color: white;
 }
-
 
 
 .card {
@@ -14,6 +20,7 @@ body {
     background-color: #0dcaf0;
     
 }
+
 
 .ancho-formulario {
     max-width: 40rem;
@@ -26,4 +33,8 @@ body {
 
 textarea.form-control {
     min-height: calc(1.5em + .75rem + 2px);
+}
+
+#Footer {
+    text-decoration: none;
 }
